@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title> Meet Max Shchebyvovk</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt=" logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Goals</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Skills</a>
+          </li>
+          
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Contact agent</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Meet
+          <!-- Green highlight effect -->
+          <span class="highlight">Max </span>
+          Shchebyvovk<br />
+          <span class="highlight">Support  </span>  Engineer
+        </h1>
+        <h4>Experienced engineer with over 13 years in technical support, quality assurance, and engineering roles. Skilled in maintaining gas boilers, software testing, and customer service, with a strong ability to combine technical expertise and sales skills to deliver optimal solutions. Proficient in automation, JavaScript, Jira, Microsoft Dynamics, Azure, Slack, Zendesk, and more.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Experience in IT</h2>
+        <h3 class="section__header">
+          During recent years
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Support/Sales Engineer
+            Current Role (2024 - Present)
+            </h5>
+          <p>
+            Support/Sales Engineer
+Current Role (2024 - Present)
+
+Provide technical assistance and support to clients.
+
+Combine technical expertise with sales skills to offer tailored solutions.
+
+Utilize Jira, HTML, JavaScript, Microsoft Dynamics, Azure, Slack, and Zendesk for support and sales operations.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Support Engineer
+            2023 - 2024</h5>
+          <p>
+            Delivered technical assistance and issue resolution for clients.
+
+Enhanced client experience with proactive support and troubleshooting.
+
+Used technical tools and platforms, including Jira and Zendesk.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">QA Engineer
+            CBA (Remote, Lviv, Ukraine)
+            Apr 2022 - Apr 2023</h5>
+          <p>
+            Ensured quality and reliability of software products through testing and automation.
+
+Developed problem-solving skills and a detail-oriented approach.
+
+Proficient in Automation, JavaScript, Endtest, and quality assurance processes.</p>
+        </div>
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Service Field Engineer ВоднаТехніка
+            Feb 2011 - Mar 2022
+            </h5>
+          <p>
+            Maintained gas boilers and heaters for safe and efficient operation.
+
+Skilled in engineering, electronics, brazing, machinery repair, welding, and customer support.
+
+Delivered service delivery and technical support.
+          </p>
+        </div>
+        <img
+          src="img/field.jpg"
+          data-src="img/field.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+      </div>
+      
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Skills</h2>
+        <h3 class="section__header">
+          Earned for 10 years in engineering field
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+          Technical skills
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Personal
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Additional
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Customer Service
+
+Technical Support
+
+Automation
+
+JavaScript
+
+Jira
+
+Microsoft Dynamics
+
+Azure
+
+Slack
+
+Zendesk
+
+Quality Assurance
+
+Sales Engineering
+          </h5>
+          <p>
+            
+
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            English Proficiency (B2)
+            Effective time management
+            Team worker
+
+          </h5>
+          <p>
+            
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Machinery Repair
+
+Brazing
+
+Electrical Engineering
+
+Welding
+          </h5>
+          
+        </div>
+      </div>
+    </section>
+    
+    <!-- <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Want to contact?</h2>
+        <h3 class="section__header">
+          See the contact information in a header above
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              I've never had such a seamless insurance experience! I got my policy in just 10 minutes, and when I needed to file a claim, the payout was in my account the next day. The customer service is outstanding. I highly recommend this company to anyone looking for hassle-free insurance
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">John Smith</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a completly safe
+            </h5>
+            <blockquote class="testimonial__text">
+              Switching to this insurance company was the best decision I've ever made. The process was quick and easy, and their team is incredibly helpful. I love knowing that I can enjoy my life while they take care of everything else. Their efficiency and professionalism are unmatched.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Emily Johnsons</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school companies
+            </h5>
+            <blockquote class="testimonial__text">
+              I was amazed by how fast and straightforward everything was. I got my policy within minutes and had no trouble when I needed to claim. The money was in my account the next day. This company truly understands customer needs and delivers exceptional service.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Michael Browns</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section> -->
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          If you love your job you never work a day in your life
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Contact me</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link"  name = 'about' href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      
+    </footer>
+
+    
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Interested in  
+         <span class="highlight">cooperation</span>?<br />
+         Contact <span class="highlight">me</span>
+      </h2>
+      <form class="modal__form">
+        <label>Max Shchebyvovk</label>
+       
+        <input type="email" value ='shchebyvovk@gmail.com'/>
+        <button class="btn" onclick=sendEmail>Send email &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="modal about hidden">
+      
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        <style>
+          .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%; /* Adjust the width as needed */
+            max-width: 800px; /* Set a maximum width */
+          
+          }
+          </style>
+        
+        
+         Meet our <span class="highlight">Team</span>
+      </h2>
+
+      <div class="executive-profile">
+        <h2>CTO</h2>
+        <img src="img/user-1.jpg" alt="" class="testimonial__photo">
+        <h3>Alexander "Alex" Thompson</h3>
+        <p style="font-size: 18px;" >
+            <strong>Responsibilities:</strong>
+            <ul style="font-size: 16px;">
+                <li>Overseeing the company’s technological direction and implementing new technologies to improve operations and customer experience.</li>
+                <li>Managing the IT department, including software development, system administration, and network security.</li>
+                <li>Collaborating with other executives to align technology initiatives with business goals.</li>
+                <li>Leading innovation projects and driving technological advancements within the company.</li>
+            </ul>
+        </p>
+    </div>
+    
+    <div class="executive-profile">
+        <h2>CEO</h2>
+        <img src="img/user-2.jpg" alt="" class="testimonial__photo">
+        <h3>Maria "Mia" Johnson</h3>
+        <p style="font-size: 18px;">
+            <strong>Responsibilities:</strong>
+            <ul style="font-size: 16px;">
+                <li>Setting the overall strategic direction of the company and ensuring it meets its long-term goals.</li>
+                <li>Overseeing the executive team and ensuring all departments are aligned with the company’s objectives.</li>
+                <li>Managing relationships with stakeholders, including investors, board members, and key partners.</li>
+                <li>Leading high-level decision-making processes and ensuring the company remains competitive in the market.</li>
+            </ul>
+        </p>
+    </div>
+    
+    <div class="executive-profile">
+        <h2>Sales Manager</h2>
+        <img src="img/user-3.jpg" alt="" class="testimonial__photo">
+        <h3>David "Dave" Williams</h3>
+        <p style="font-size: 18px;">
+            <strong>Responsibilities:</strong>
+            <ul style="font-size: 16px;">
+                <li >Leading the sales team to meet and exceed sales targets and revenue goals.</li>
+                <li>Developing and implementing sales strategies to attract new customers and retain existing ones.</li>
+                <li>Analyzing market trends and customer needs to identify new sales opportunities.</li>
+            </ul>
+        </p>
+    </div>
+    
+
+      
+    </div>
+    <div class="overlay hidden"></div>
+
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Business 
+         <span class="highlight">Goals</span>
+      </h2>
+      
+        <div  style="font-size: 18px;">
+          <h2 style="font-size: 24px;"> </h2>
+          <ul >
+              <li>
+                  <strong>Enhance Technical Expertise:</strong>
+                  Focus on gaining deeper knowledge in automation, software testing, and customer support systems to become a technical expert. <li>
+                  <strong>Enhance Communication and Collaboration:</strong>
+                  Improve  ability to clearly communicate complex technical concepts to both technical and non-technical stakeholders.<li>
+                  <strong>Expand International Experience:</strong>
+                  Work with global clients or in international teams to build a diverse professional network and improve cross-cultural communication. </li>
+              <li>
+                  <strong>Leverage Technology:</strong>
+                  Utilize advanced technologies to streamline operations, enhance customer interactions, and provide more efficient services.
+              </li>
+              <li>
+                  <strong>Pursue Professional Certifications:</strong>
+                  Obtain relevant certifications (like IT support, automation, or sales engineering) to formalize your skills and increase your career prospects.</li>
+          </ul>
+      
+      
+      
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script>
+      function sendEmail(event) {
+          event.preventDefault(); // Prevent form submission
+          const email = document.getElementById('email').value;
+          window.location.href = `mailto:shchebyvovk@gmail.com`;
+      }
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
