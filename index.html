@@ -321,7 +321,8 @@ Delivered service delivery and technical support.
         <label>Max Shchebyvovk</label>
        
         <input type="email" value ='shchebyvovk@gmail.com'/>
-        <button class="btn" onclick=sendEmail>Send email &rarr;</button>
+< a href="mailto:shchebyvovk@gmail.com"
+        <button class="btn" >Send email &rarr;</button> </a>
       </form>
     </div>
     <div class="overlay hidden"></div>
@@ -427,12 +428,8 @@ Delivered service delivery and technical support.
     </div>
     <div class="overlay hidden"></div>
 
-    <script>
-      function sendEmail(event) {
-          event.preventDefault(); // Prevent form submission
-          const email = document.getElementById('email').value;
-          window.location.href = `mailto:shchebyvovk@gmail.com`;
-      }
+    
+    
     <!-- <script src="script.js"></script> -->
   </body>
 </html>
